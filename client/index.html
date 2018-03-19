@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--<meta http-equiv="refresh" content="3" >-->
 	<link rel="stylesheet" href="./style.css">
+	<script src="./scripts.js" defer></script>
 
 	<title>24HSoft</title>
 </head>
-	<body>
-		<div id="root">
-			<script src="./scripts.js"></script>
-		</div>
-	</body>
+
+<body>
+	<div id="root">
+		<table id="table" class="table">
+			<caption class="table__main-header">Данные</caption>
+			<tr>
+				<th class="table__headers table__headers_latitude">Широта
+				</th>
+				<th class="table__headers table__headers_longitude">
+					Долгота</th>
+				<th class="table__headers table__headers_course">Курс (град)
+				</th>
+				<th class="table__headers table__headers_altitude">Высота полета(м)
+				</th>
+				<th class="table__headers table__headers_speed">Скорость (км/ч)
+				</th>
+				<th class="table__headers table__headers_departure-code">Код вылета</th>
+				<th class="table__headers table__headers_destination-code">Код назначения</th>
+				<th class="table__headers table__headers_flight">Номер рейса
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+
 </html>
